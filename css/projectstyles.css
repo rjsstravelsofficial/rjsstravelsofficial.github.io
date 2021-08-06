@@ -1,0 +1,1736 @@
+/* This style sheet is designed by students of group 7:-
+    1.) Simranjeet Singh(c0818716)
+    2.) Jobanpreet Kaur Sidhu(c0817071)
+    3.) Rajan Preet Kaur(c0819806)
+    4.) Simranjit Singh(c0818509)  */
+
+
+/* Style for header */
+header{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(101, 229, 238), rgb(185, 223, 238));
+    overflow: hidden;
+    background-color:skyblue;  
+}
+
+/* Style for navigation bar */
+/* Style for the nav specifies text properties */
+nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;    
+}
+
+/* Style for navigation ul */
+/* style specifies padding and margins for unordered list */
+nav ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;  
+}
+ 
+/* Style for navigation li */
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, 
+and applies margins and padding for list items within the navigation */
+nav li{
+    background-color:rgb(120, 209, 221);
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+    text-align: center;
+}
+ 
+/* Style for navigation anchor tag */
+/* Style changes navigation link text color to white and
+removes the underline */
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Style for body */
+body{
+    background-color: lightgrey;
+}
+
+/* Style for container class */  
+/* Styles for Mobile Layout */ 
+.container{
+    margin-top: 55px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for logo image */
+.preet{
+    height: auto;
+    width: auto;
+    text-align: center;  
+    display: inline-block;  
+}
+
+/* Style for paragraphs */
+p{
+    color:black;
+    font-size: x-large;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style for contact us page id */
+#kaur{
+    background-color:azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size:large;
+}
+
+ /* Style to create fliud image*/
+.container img {
+    max-width: 100%;
+}
+
+
+/* Mobile Style rule for input, select, and textarea form elements */
+form{
+    text-align: left;
+    border-radius: 15px;
+    border: solid black;
+    box-shadow: 0.2em 0.2em 0.2em #404040;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+.sec1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.design{
+    font-size: 2.2em;
+}
+
+input, select, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/* Style rule for label element */
+label {
+    display: block;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+    list-style-type: none;
+}
+
+/* Style rule for chkbx class */
+.chkbx {
+    display: inline-block;
+}
+
+/* Style for job class */
+.job{
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+    color:black;   
+}
+
+/* Style for index page id */
+#positive{
+    font-size: x-large;
+    color: rgb(36, 35, 33);
+    text-align: center;
+    margin-left: auto;
+}
+
+/* Style for sport class */
+.sport{
+    display: block;
+    background-color:white;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-top: solid 0.2em black;
+    border-bottom: solid 0.2em black;
+    border-left: solid 0.2em black;
+    border-right:solid 0.2em black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Style for div class */
+.div{
+    text-align: center;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(20, 96, 126);
+}
+
+/* Style for image class */
+.image{
+    max-width: 100%;
+    width: 91em;
+}
+
+/* Style for image1 class */
+.image1{
+    max-width: 100%;
+    height: 20em;
+    width: 91em;
+}
+
+/* Style for person class */
+.person{
+    background-color:powderblue;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Style for ex1 class */
+.ex1{
+    text-shadow: 1px 1px #404040;
+    text-align: center;
+    font-size:1.5em !important;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border-radius: 15px;
+    border-top: 5px solid lightseagreen;
+    border-bottom:5px solid   lightseagreen;
+    margin-bottom: 20px;
+}
+
+
+/* Style for list class */
+.list{
+    list-style-position: inside;
+    font-size: 1.2em;
+        
+}
+
+/* Style for choice class */
+.choice{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 15px;
+    border-top: 0.2em solid skyblue;
+    border-bottom: 0.2em solid rgb(181, 214, 228);
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0.5em;
+}
+
+/* Style for choice1 class */
+.choice1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: bold;
+    border-radius: 15px;
+    border-top: 0.2em solid skyblue;
+    border-bottom: 0.2em solid rgb(181, 214, 228);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+  
+/* Style for franchise-box class */
+.franchise-box{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: whitesmoke;
+    display: block;
+}
+
+/* Style for box class */
+.box{
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    margin-top: 1.5em;
+}
+ 
+
+/* Style for box1 class */
+.box1{
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+/* Style for yes class */
+.yes{
+    
+    display: none;
+    float: left;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+/* Style for h1 */
+h1 {
+    margin-top: 0.2em;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
+
+/* Style for son class */
+.son{
+    float:right;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px; 
+    margin-bottom: 7px;
+}
+
+/* Style for bold class */
+.bold{
+    background-color: rgb(212, 228, 235);
+    font-size: large;
+}
+
+/* Style for no class */
+.no{
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;  
+    margin-right: 20px;
+    text-align: center;
+}
+
+/* Style for yes id */
+#yes{
+    float: left;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 7px;
+}
+
+/* Style for mark class */
+.mark{
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;  
+    margin-left: 20px;
+    text-align: center;  
+}
+
+/* style dispalys the mobile class */
+.mobile{
+    display: inline;
+}
+
+/*style rule hides the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style for audio tag */
+audio{
+    width: 300px;
+    height: 54px;
+}
+
+/* Style for video */
+.video{
+    padding: 1em;
+    text-align: center;
+}
+
+video{
+    border: 0.5em ridge #FFFFFF;
+    height: auto;
+    max-width: 70%;
+}
+
+video{
+    object-fit: contain;
+}
+
+/* Style for form */
+.form1{
+    margin-top:0;
+    margin-bottom: 30px;  
+}
+
+/* Style for button */
+.btn{
+    color: rgb(27, 26, 26);
+}
+
+/* style hides the tablet class */
+.tablet {
+    display: none;
+}
+
+/* Style for table */
+table {
+	width: 80% !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+	border: solid 0.1em #1272d1;
+	border-collapse: collapse;
+	padding: 1em;
+} 
+
+caption {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+/* Style for about us page */
+.main-heading1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.sub-title{
+    color: #333;
+}
+
+.sub-heading{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.sub-heading1{
+    font-size: 1.2em;
+}
+
+.sub-heading2{
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.sub-heading3{
+    font-size: 1.6em;
+    color: #fff;
+}
+
+.card{
+    float: left;
+    width: 33.33%;
+}
+
+.card-box1{
+    float: left;    
+    margin: 20px;
+}
+
+.count{
+    font-size: 1.6em;
+}
+
+.card1{
+    float: left;  
+    margin-left: 500px;   
+}
+
+
+
+.media-container-row{
+    content: "";
+  display: table;
+  clear: both;
+}
+
+.card-img{
+    font-size: 90px;
+    color: rgb(61, 235, 226);
+}
+
+.sub-heading1{
+    width: 90%;
+    margin-right: 40px;
+    text-align: center;
+    
+}
+
+.main-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.features1{
+    background: #111;
+    color: #ffffff;
+}
+
+.row2{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.count{
+    text-align: center;
+}
+
+.team1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container6{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+
+.row6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.content6{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section-title6{
+    font-size: 2.3rem;
+    margin: 20px auto;
+    color: #000000;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.card6{
+    margin: 15px;
+}
+
+.card-wrapper6{
+    overflow: hidden;
+    height: 100%;
+    color: #444444;
+    padding: 0;
+    border-radius: 6px;
+}
+
+.card-img6{
+   
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+    text-align: center;
+    flex-shrink:0 ;
+}
+
+.card-box6{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card-title6{
+    color: black;
+}
+
+/* Style for main tag */
+main{
+    background: rgb(221, 236, 241);
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+/* Style for footer */
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    padding: 50px 100px;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+
+ footer .main-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main-content .sec{
+    margin-right: 30px;
+}
+
+.main-content .aboutus{
+    width: 40%;
+}
+
+.main-content h2{
+    position: relative;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.sec h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer p{
+    color: #999;
+    font-size: 1em;
+}
+
+.social{
+    margin-top: 20px;
+    display: flex;
+}
+
+.social a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background:#222 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+ 
+.social a:hover{
+    background: #f00;
+}
+
+.social a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+
+.quicklinks{
+    position: relative;  
+    width: 15%;
+}
+
+.quicklinks li{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.quicklinks ul li{
+    list-style: none;    
+}
+
+.quicklinks ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;    
+}
+
+.quicklinks ul li a:hover{
+    color: #fff;
+}
+
+.contact{
+  /*  width: calc(35%-60px);*/
+    margin-right: 0 !important;
+}
+
+.contact .info{
+    position: relative;
+}
+
+.contact .space{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;   
+}
+
+.contact  li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.space{
+    margin-bottom: 10px;
+}
+.contact  li span{
+    color: #999;
+}
+
+.contact ul li{
+    list-style: none;
+}
+
+
+.contact  li a{
+    color: #999;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact  li a:hover{
+    color: #fff;
+}
+ 
+.contact  li span:hover{
+    color: #fff;
+}
+
+.copyrightText{    
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;    
+    font-size: 1em;
+}
+
+.copyrightText p{
+    color: #999;
+    font-size: 1em;
+}
+
+/* Style for footer to target screen with max size 552px */
+@media (max-width:552px){
+    footer{
+        padding: 40px;
+    }
+
+    footer .main-content{
+        flex-direction: column;
+    }
+
+    footer .main-content .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .aboutus p{
+        width: 170%;
+    }
+
+    footer .main-content .sec .aboutus, .quicklinks, .contact{
+        width: 100%;
+    }
+
+    .copyrightText{
+        padding: 8px 40px;
+    }
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 769px. */
+ @media only screen and (min-width: 1128px) {
+
+    /* Style to show desktop class */
+    .desktop{
+        display: inline;
+    }
+
+    /* Style to hide mobile class */
+    .mobile{
+        display: none !important;
+    }
+
+    /* Style for header */
+    header{
+        text-align: left;
+    }
+
+    /* Style for container class */
+    .container{
+        margin-top: 55px;
+        display: block;
+        width:90%;
+        text-align: center;    
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Style for images */
+    .image1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img{
+         width: 50%;
+        margin-left: 5%;
+        margin-right: 50%; 
+    }
+
+    .container img {
+        opacity: 0.5;
+    }
+    
+    .container img:hover {
+        opacity: 1;
+    }
+    
+     
+    /* Style for logo image */
+    .preet{
+        height: 6em;  
+        margin-top: 0.9em; 
+        margin-left: 1.5em;
+        margin-bottom: 0;
+        padding-top: 1.5em;
+    }
+
+    /* Style for fixed banner */
+    #banner{
+        background-image: linear-gradient(to right, rgb(101, 229, 238), rgb(185, 223, 238));
+        overflow: hidden;
+        background-color:skyblue;        
+    }
+ 
+    /* Style for nav specifies a float, margin, and width */
+    nav {
+	    float: right;
+	    margin-top: -4em;
+	    margin-right: 2em;
+	    margin-bottom: 3em;
+	    width: 70%;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    nav li a {
+	    color: whitesmoke;
+	    text-decoration: none;
+    }
+
+
+    /* Style specifies margin and padding for the unordered list within the nav */
+    nav ul {
+        list-style-type: none;
+        overflow: hidden; 
+        margin: 0;
+        padding-left: 0.50%;
+        padding-right: 0.50%;
+    }
+
+    /* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+    nav li {
+        background: none !important;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 20%;
+    }
+
+    /* Style for navigation links specifies display and padding */
+    nav li a {
+        display: inline-block;
+        padding: 0.7em;
+        text-shadow: 0.2em 0.1em #6dd1e0;
+        color: #ffffff;
+    }
+
+    /* Style rules for pseudo-classes */
+    nav li a:link {
+        color: #FFFFFF;
+    }
+
+    nav li a:visited {
+        color: #1d1d1d;
+    }
+
+    nav li a:hover {
+        color: #3e4792 !important;
+        font-style: italic;
+    }
+    
+
+    /* Style for index page */
+    .parallax-wrap{
+        margin-right: 7.9px;
+        overflow: hidden;
+    
+    }
+
+    .parallax{
+        background-image: url(https://wallpaperaccess.com/full/1378670.jpg);
+        height: 76% !important;
+        width: 98.9%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;   
+        position: absolute;
+        margin-left: 7.7px;
+        transform: translate(0px, 196.2px);
+    }
+
+    .parallax{
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        position: absolute;
+        bottom: 0;
+        left: 0;    
+        height: 100%;
+        display: block;
+    }
+
+    .fullwidth-container{
+        min-height: 453px;   
+    }
+
+    .fullwidth-container .left{
+        display: flex;
+        flex-flow: row;
+    }
+
+    .fullwidth-container{
+        width: 90%;
+        height: 100%;
+        position: relative;
+        z-index: 3;
+        padding: 0% 2%;
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(10, 10, 10, 0.6);
+    }
+
+    .header-content .center{
+        align-self: center;
+        width: 100%;
+    }
+
+    .header-content{
+        max-width: 700px;
+        padding-left: 0;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .module-header{
+        font-size: 58px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .header-content-wrap{
+        margin: 0;
+        font-size: 23px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .custom-button{
+        text-decoration: none;
+        color: #fff;
+        border-radius: 0px;
+        letter-spacing: 4px;
+        font-size: 20px;
+        font-weight: 700!important;
+        text-transform: uppercase!important;
+        margin-top: 20px;
+        display: inline-block;
+        padding: .3em 1em;
+        line-height: 1.7em!important;
+        background-color: transparent;
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        border: 2px solid;
+        border-radius: 3px;
+    
+    }
+
+    .section{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        position: relative;
+        background-position: 50%;
+        background-size: cover;
+        box-sizing: border-box;
+    }
+
+
+    .et-row{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+
+    .et-column{
+        float: left;
+        position: relative;
+        z-index: 2;
+        min-height: 1px;
+        margin-bottom: 60px;
+    
+    }
+
+    .text-inner{
+        line-height: 2.4em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 33px;
+        font-weight: 500;
+    }
+
+    .text-inner::before{
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 30%;
+        height: 2px;
+        background: #f00;
+    }
+
+    .text-inner2{
+        line-height: 1.4em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+    }
+
+    .wrapper{
+        margin-bottom: 30px;
+        width: 40%;
+        margin-top: 30px !important;
+        margin: 0 0 30px;
+        text-indent: 50px;
+        box-sizing: content-box;
+        word-wrap: break-word;    
+    }
+
+    .text-inner1{
+        line-height: 1.2em;
+        position: relative;
+        padding-top: 30px !important;
+        vertical-align: baseline;
+    }
+
+    .section p{
+        font-size: 20px;   
+    }
+
+    .module-image{
+        margin-top: 90px !important;
+        width: 100%;
+    }
+
+    .image-wrap{
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+    }
+
+    .column-text{
+        float: right;
+        margin-left: 20px;
+        margin-right: 0 !important;
+        background-size: cover;
+        background-position: 25%;
+        z-index: 2;   
+    }
+    /* Style for class element*/
+    .box{
+        background-color: skyblue;
+        margin-left: 7em !important;
+        margin-right: 7em !important;
+        padding: 1em;   
+        margin-top: 20px; 
+    }
+
+    /* Style for box1 class */
+    .box1{
+        background-color: skyblue;
+        margin-left: 17em !important;
+        margin-right: 17em !important;
+        padding: 1em; 
+
+    }
+
+    /* Styles for index page */
+    /* Style for features5 class */
+    .features5{
+        background: rgb(27, 27, 27);
+        padding-top: 45px;
+        padding-bottom: 45px;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+ 
+    .container4{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+ 
+    .features5 .section-title{
+        color: #eee4e4;
+        text-align: center;
+    }
+    
+    .section-title{
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        
+    }
+    
+    .section-sub-title{
+        text-align: center;
+        color: rgb(161, 159, 159);
+        font-size: 1.5rem;
+        word-wrap: break-word;
+    
+    }
+    
+    .row-content3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-bottom: -15px;
+    }
+    
+    .card-content5{
+        margin-bottom: 2rem;
+        overflow: hidden;
+        max-height: 350px;
+        border-radius: 6px;
+    }
+    
+    .card-wrapping{
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        border-radius: 6px;
+    }
+    
+    .card-img2{
+        margin: 0;
+        overflow: hidden;
+        transition: transform 0.3s;
+        position: relative;
+        border-radius: 6px;
+        text-align: center;
+        flex-shrink: 0;
+        width: 100%;
+    }
+    
+    .card-title{
+        color: #fff;
+        text-shadow: 0.2em 0.1em #333;
+        position: absolute;
+        overflow: hidden;
+        height: fit-content;
+        margin: auto;
+        margin-bottom: 21px;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        z-index: 100;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card-title3{
+        line-height: 1.6;
+        margin: 0;
+        text-align: left;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 0.75rem;
+    }
+
+    /* Style for sport class */   
+    .sport1{
+        text-decoration: none !important;
+        color: rgb(27, 26, 26) !important;       
+        letter-spacing: 4px;
+        font-size: 20px;    
+        display: block;
+        font-weight: 500;
+        text-transform: uppercase;
+        background-color:rgb(241, 235, 235);
+        padding: 10px;
+        box-shadow:12px 12px 12px #404040;
+        border-radius: 10px;
+        text-align: center;
+        align-content: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        border-top: solid 0.2em black;
+        border-bottom: solid 0.2em black;
+        border-left: solid 0.2em black;
+        border-right:solid 0.2em black; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 500px;
+        margin-right: 500px;
+
+    }
+
+    /* Style for positive id */
+    #positive{
+        margin-left: 300px;
+        margin-right: 220px;
+    }
+
+    
+    /* Desktop Style rule for form element */
+    form {   
+        padding: 1em;
+    }
+
+    /*  Style for p tag */
+    p{
+        color: #000000;
+    }
+
+    /* Style for form */
+    .sec1{
+        margin-left: 280px !important;
+        margin-right: 280px !important;
+    }
+    
+    .form1{
+        margin-top: 420px;
+        margin-bottom: 30px;
+       
+    }
+
+    /* Styles for home page image slider */
+    .slider{
+        width: 800px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+    }
+
+    .slides input{
+        display: none;
+    }
+
+    .slide{
+        width: 20%;
+        transition: 2s;
+
+    }
+
+    .slide img{
+        width: 800px;
+        height: 500px;
+    }
+
+    /* style for manual navigation slider */
+    .navigation-manual{
+        position: absolute;
+        width: 800px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .manual-btn{
+        border: 2px solid #40d3dc;
+        width: 0.5px;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .manual-btn:not(:last-child){
+        margin-right: 40px;
+    }
+
+    .manual-btn:hover{
+        background:#40d3dc ;
+    }
+
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    }
+
+    #radio2:checked ~ .first{
+        margin-left: -20%;
+    }
+
+    #radio3:checked ~ .first{
+        margin-left: -40%;
+    }
+
+    #radio4:checked ~ .first{
+        margin-left: -60%;
+    }
+
+    #radio5:checked ~ .first{
+        margin-left: -80%;
+    }
+
+    /* style for automatic navigation slider */
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 800px;
+        justify-content: center;
+        margin-top: 460px;
+    }
+
+    .navigation-auto div{
+        border: 2px solid #40d3dc;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+    }
+
+    #radio1:checked ~ .navigation-auto .auto-btn1{
+        background:#40d3dc ;
+    }
+
+    #radio2:checked ~ .navigation-auto .auto-btn2{
+        background:#40d3dc ;
+    }
+
+    #radio3:checked ~ .navigation-auto .auto-btn3{
+        background:#40d3dc ;
+    }
+
+    #radio4:checked ~ .navigation-auto .auto-btn4{
+        background:#40d3dc ;
+    }
+
+    #radio5:checked ~ .navigation-auto .auto-btn5{
+        background:#40d3dc ;
+    }
+
+    /* Style for ex1 class */
+    .ex1{
+        text-shadow: 1px 1px #404040;
+        text-align: center;
+        font-size:1.5em !important;
+        font-weight: bold;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 15px;
+        border-radius: 15px;
+        border-top: 5px solid lightseagreen;
+        border-bottom:5px solid   lightseagreen;
+        margin-bottom: 20px;
+    }
+    
+    /* Style for aside tag */
+    aside {
+        height: 90px;
+        width: 110%;
+        margin-top: 10px;
+        margin-left: 180px; 
+        margin-right: 70px;
+        text-align: center;
+        margin-bottom: 20px;   
+    }
+
+    aside > p {
+        margin: .5rem;
+    }
+
+    p {
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .mine{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    aside > p{
+        margin: .5rem;
+    }
+        
+    p {
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    /*  Style for li */
+    li {
+        font-family: 'Fira Sans', sans-serif;
+        font-size:larger;
+        margin-right: 15px;
+        margin-inline-end: 15px;
+    }
+
+    ul.list{
+        text-align:center;
+        margin-top: 45px;
+        margin-right: 15px;
+        margin-left: 35px;   
+    }
+
+    /* Style for table */  
+	thead th span{
+		text-orientation: upright;
+		writing-mode: vertical-rl;
+        font-size: 20px;
+        font-weight: bolder;
+	}
+
+	tbody tr:hover{
+		background-color: rgb(201, 233, 243);
+	}
+
+	tbody td{
+		position: relative;
+	}
+
+	tbody td:hover::after{
+		content: "";
+		position: absolute;
+		background-color: rgb(201, 233, 243);
+		left: 0;
+		top: -5000px;
+		height: 10000px;
+		width: 100%;
+		z-index: -1;
+	}
+
+	table{
+		overflow: hidden;
+	}
+
+	caption{
+		background-color: #49a2eb;
+    }
+	
+	thead th span{
+		text-orientation: upright;
+		writing-mode: vertical-rl;
+	}
+
+	tbody tr:hover{
+		background-color: rgb(201, 233, 243);
+	}
+
+	tbody td{
+		position: relative;
+	}
+
+	tbody td:hover::after{
+		content: "";
+		position: absolute;
+		background-color: rgb(201, 233, 243);
+		left: 0;
+		top: -5000px;
+		height: 10000px;
+		width: 100%;
+		z-index: -1;
+	}
+
+	table{
+		overflow: hidden;
+	}
+	
+}
+
+    /* Style for side2 */
+    @media only screen and (min-width: 930px) {
+        .side2{   
+            background-color:#ddd;
+            text-align: center;    
+            box-sizing: border-box;
+            font-style: italic;
+            margin-left: 100px;
+            width: 35%;
+            height: 300px;
+            float: right;
+            margin-top: 5px;
+            box-shadow: 1em 1em 1em #000000;
+            transition: all 5s ease-in-out;
+            border-radius:2.5rem;
+            
+        }
+
+        .side2:hover{
+            transform: rotate(360deg);
+        }       
+    }
+
+
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px) {
+
+    /* Style for navigation bar */
+    nav li a{
+        color: black !important;
+    }
+
+    nav li{
+        display: inline;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 18%;
+        font-size: 1.3em;  
+        white-space: nowrap;
+        border-radius: 0;
+        background-color: transparent;
+    }
+    
+    /* Style for box class */
+    .box{
+        background-color: skyblue;
+        margin-left: 3em;
+        margin-right: 3em;
+        padding: 1em; 
+        margin-top: 0 !important;   
+    }
+
+    /* Style for box1 class */
+    .box1{
+        background-color: skyblue;
+        margin-left: 5em !important;
+        margin-right: 5em !important;
+        padding: 1em; 
+    }
+
+    /* Style for ex1 class */
+    .ex1{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    /* Style for choice class */
+    .choice{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        border-radius: 15px;
+        border-top: 0.2em solid skyblue;
+        border-bottom: 0.2em solid rgb(181, 214, 228);
+        margin-left: 7em;
+        margin-right: 7em;
+        padding: 10px;
+    }
+
+    /* Style for  choice1 class */
+    .choice1{
+        margin-left: 8em;
+        margin-right: 8em;
+        padding: 10px;
+    }
+
+     /* Style specifies to hide the mobile class */
+    .mobile{
+        display: inline; 
+    }
+    
+    /* Style specifies to display the tablet class */
+    .tablet {
+        display: inline; 
+    }
+    
+    /* Style specifies a display, float, and padding for the yes class */
+    .yes{
+        display: inline;
+        float: left;
+        margin-right: 1.5em;
+    }
+
+    .tablet .yes{
+        display: inline;
+        float: left;
+        margin-right: 1.5em;
+    }
+    
+    /* Style specifies a display, list-style-position, and bottom margin for the items class */
+    .list{
+        display: block;
+        list-style-position: inside;
+        margin-bottom: 5em;
+    }
+    
+    /* Style specifies a font weight and top margin for description list terms */
+    ul{
+        font-weight: bold;
+        margin-top: 0.7em;
+    }
+
+    /* Style for h1 element */
+    h1{
+        text-align: center;
+    }
+
+    .sport{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    /* Style for images within the figure element */
+    figure img {
+        background-color: #1D1D1C;
+        display: inline;
+        height: 8em;
+        width: 28%;
+        margin: 1%;		
+        padding: 1%;
+    }
+
+    /* Style for anchor elements within the figure element */
+    figure a {
+        background-color: transparent;
+        padding: 0;
+        text-decoration: none;	
+    }
+
+    /* Style specifies bottom padding for the section element */
+    section{
+        padding-bottom: 3em;
+    }
+
+    /* Style for no class */
+    .no{
+        font-size: 1.2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;  
+        margin-right: 20px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+     /* Tablet Style rule for input, select, and textarea form elements */
+    label 
+    {
+        float: left;
+        padding-right: 0.5em;
+        width: 10em;
+    }
+
+    /* Style rule for btn class */
+    .btn {
+        margin-left: 12em;
+    }
+ 
+    /* Style for table */
+    table{
+		border: 0.1em solid #000000;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	
+	th{
+		background-color: rgb(130, 214, 235);
+		color: #FFFFFF;
+	}
+	
+    /* Style for footer */
+    footer .main-content .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    
+    
+}
+
+/* Style for aside */
+@media (min-width: 930px) and (max-width: 1128px){
+
+.side2{ 
+    background-color:#ddd;
+        text-align: center;    
+        box-sizing: border-box;
+        font-style: italic;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 30px;
+        width: 75%;
+        height: 250px;
+        float: right;
+        margin-top: 30px;
+        box-shadow: 1em 1em 1em #000000;
+        
+    }
+}
